@@ -7,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+    name = "Nicolas";
+    idButton = "botao";
+  
+// atualizaBooleano(valor: boolean){
+//    this.meuBooleano = valor;
+// }
+
+submit(event: any){
+  console.log(event)
+}
 
 }
