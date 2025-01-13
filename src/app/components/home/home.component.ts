@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
     name = "Nicolas";
     idButton = "botao";
+    deveMostrarTitulo = true;
   
 // atualizaBooleano(valor: boolean){
 //    this.meuBooleano = valor;

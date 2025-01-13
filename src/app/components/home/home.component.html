@@ -1,3 +1,12 @@
 <p>Primeiro App feito por {{name}}!</p>
 
 <button (click)="submit($event)">Clique</button>
+
+@if(deveMostrarTitulo){
+    <h1>Título verdadeiro</h1>
+} @else if (name == "Nicolas") {
+    <h1>Título verdadeiro de Nicolas</h1>
+}    
+@else {
+    <h1>Não foi possível mostrar o título verdadeiro</h1>
+}
