@@ -10,4 +10,12 @@ import { HomeComponent } from './components/home/home.component';
 })
 export class AppComponent {
   title = 'Meu-Primeiro-App';
+
+  submit(event: any){
+    console.log(event)
+  }
+
+  logar(event: string){
+    console.log(event)
+  }
 }

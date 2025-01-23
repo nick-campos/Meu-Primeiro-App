@@ -1,12 +1,5 @@
-<p>Primeiro App feito por {{name}}!</p>
+<h1>
+    {{ minhaProps }}
+</h1>
 
 <button (click)="submit()">Clique</button>
-
-@if(deveMostrarTitulo){
-    <h1>Título verdadeiro</h1>
-} @else if (name == "Nicolas") {
-    <h1>Título verdadeiro de Nicolas</h1>
-}    
-@else {
-    <h1>Não foi possível mostrar o título verdadeiro</h1>
-}
